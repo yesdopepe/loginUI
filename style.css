@@ -26,7 +26,9 @@ border: 1px solid rgba(146,95,216,0.1);
 }
 
 
-:focus{outline: none;}
+:focus{
+  outline: none;
+}
 
 .input-container{
     display: block;
@@ -49,6 +51,7 @@ label{
   box-sizing: border-box;
   letter-spacing: 1px;
   background-color: rgb(19, 23, 44);
+  border-radius: 10px;
   border: none;
   height: 10vh;
   width: 30vw;
@@ -84,6 +87,8 @@ button {
     outline: none;
     background-position: center;
     transition: background 0.8s;
+    overflow: clip;
+    box-sizing: border-box;
   }
   button:hover{
     background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%)
