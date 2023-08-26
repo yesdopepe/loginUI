@@ -31,7 +31,7 @@ font-weight: 600;
     background: rgba(146,95,216,0.2);
 backdrop-filter: blur(15px);
 border: 1px solid rgba(146,95,216,0.1);
-box-shadow: 11.5px 9px 19px 7.5px #313131;
+box-shadow: 11.5px 9px 19px 7.5px #000000;
 
 }
 
@@ -118,7 +118,7 @@ button {
       background: rgba(146,95,216,0.2);
   backdrop-filter: blur(15px);
   border: 1px solid rgba(146,95,216,0.1);
-  box-shadow: 11.5px 9px 19px 7.5px #313131;
+  box-shadow: 11.5px 9px 19px 7.5px #000000;
   
   }
     .input-container{
